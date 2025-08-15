@@ -1,0 +1,78 @@
+# TG-Twitter Poster .gitignore
+# PowerShell and application specific ignore patterns
+
+# Configuration files with sensitive data
+config.txt
+*.config
+.env
+.env.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+database.db
+
+# PowerShell module cache
+**/PSModulePath/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Windows Thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Windows Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Credentials and API keys
+api_keys.txt
+credentials.json
+*.key
+*.pem
+*.p12
+
+# PowerShell execution policy files
+ExecutionPolicy*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Application specific
+twitter_cache/
+telegram_cache/
+media_downloads/
+uploads/
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
