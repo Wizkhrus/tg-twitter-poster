@@ -1,0 +1,47 @@
+# TG-Twitter Poster - Twitter Apps Configuration Example
+# This file contains example Twitter application configurations
+# Copy this file and configure with your actual Twitter app credentials
+
+# Format: Each section represents one Twitter application
+# You can have multiple applications for different accounts or use cases
+
+[APP_1]
+NAME=My Twitter Bot App
+DESCRIPTION=Primary Twitter posting application
+CONSUMER_KEY=your_consumer_key_here
+CONSUMER_SECRET=your_consumer_secret_here
+ACCESS_TOKEN=your_access_token_here
+ACCESS_TOKEN_SECRET=your_access_token_secret_here
+BEARER_TOKEN=your_bearer_token_here
+ENABLED=true
+POST_INTERVAL=300
+MAX_DAILY_POSTS=100
+
+[APP_2]
+NAME=Backup Twitter App
+DESCRIPTION=Secondary Twitter posting application
+CONSUMER_KEY=your_backup_consumer_key_here
+CONSUMER_SECRET=your_backup_consumer_secret_here
+ACCESS_TOKEN=your_backup_access_token_here
+ACCESS_TOKEN_SECRET=your_backup_access_token_secret_here
+BEARER_TOKEN=your_backup_bearer_token_here
+ENABLED=false
+POST_INTERVAL=600
+MAX_DAILY_POSTS=50
+
+# Configuration Notes:
+# - CONSUMER_KEY: Your Twitter app's API key
+# - CONSUMER_SECRET: Your Twitter app's API secret key
+# - ACCESS_TOKEN: OAuth access token for your Twitter account
+# - ACCESS_TOKEN_SECRET: OAuth access token secret
+# - BEARER_TOKEN: Bearer token for API v2 access
+# - ENABLED: true/false to enable/disable this app
+# - POST_INTERVAL: Seconds between posts (minimum 300)
+# - MAX_DAILY_POSTS: Maximum posts per day limit
+
+# How to get Twitter API credentials:
+# 1. Go to https://developer.twitter.com/
+# 2. Create a new app or use existing one
+# 3. Generate API keys and access tokens
+# 4. Copy the credentials to this configuration file
+# 5. Ensure your app has Read and Write permissions
