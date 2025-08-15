@@ -1,0 +1,40 @@
+# TG-Twitter Poster PowerShell Module Requirements
+# Install these modules using Install-Module command
+
+# Core PowerShell modules
+PSSQLite >= 1.1.0
+PowerShellForGitHub >= 0.16.0
+
+# HTTP and REST API modules
+Invoke-RestMethod  # Built-in PowerShell cmdlet
+Invoke-WebRequest  # Built-in PowerShell cmdlet
+
+# JSON processing
+ConvertTo-Json     # Built-in PowerShell cmdlet
+ConvertFrom-Json   # Built-in PowerShell cmdlet
+
+# Text processing and utilities
+Write-Host         # Built-in PowerShell cmdlet
+Write-Output       # Built-in PowerShell cmdlet
+Write-Error        # Built-in PowerShell cmdlet
+Write-Verbose      # Built-in PowerShell cmdlet
+
+# File system operations
+Test-Path          # Built-in PowerShell cmdlet
+Get-Content        # Built-in PowerShell cmdlet
+Set-Content        # Built-in PowerShell cmdlet
+New-Item           # Built-in PowerShell cmdlet
+
+# Date and time handling
+Get-Date           # Built-in PowerShell cmdlet
+
+# Optional modules for enhanced functionality
+# PowerShellGet    # For module management
+# PSReadLine       # For improved console experience
+
+# Installation commands:
+# Install-Module -Name PSSQLite -Force -Scope CurrentUser
+# Install-Module -Name PowerShellForGitHub -Force -Scope CurrentUser
+
+# Note: Most PowerShell cmdlets are built-in and don't require separate installation
+# Only third-party modules like PSSQLite and PowerShellForGitHub need to be installed
