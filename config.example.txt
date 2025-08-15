@@ -1,0 +1,42 @@
+# TG-Twitter Poster Configuration File Example
+# Copy this file to 'config.txt' and fill in your actual API keys
+
+# Telegram Bot Configuration
+[TELEGRAM]
+BOT_TOKEN=your_telegram_bot_token_here
+CHANNEL_ID=@your_telegram_channel
+API_ID=your_telegram_api_id
+API_HASH=your_telegram_api_hash
+
+# Twitter API Configuration (API v2)
+[TWITTER]
+BEARER_TOKEN=your_twitter_bearer_token_here
+CONSUMER_KEY=your_twitter_consumer_key
+CONSUMER_SECRET=your_twitter_consumer_secret
+ACCESS_TOKEN=your_twitter_access_token
+ACCESS_TOKEN_SECRET=your_twitter_access_token_secret
+
+# Database Configuration
+[DATABASE]
+DB_FILE=database.db
+CONNECTION_STRING=Data Source=database.db;Version=3;
+
+# Application Settings
+[SETTINGS]
+POST_INTERVAL=300
+MAX_RETRIES=3
+LOG_LEVEL=INFO
+DEBUG_MODE=false
+
+# Posting Rules
+[RULES]
+MAX_POST_LENGTH=280
+INCLUDE_HASHTAGS=true
+AUTO_THREAD=true
+SKIP_REPOSTS=false
+
+# Notification Settings
+[NOTIFICATIONS]
+NOTIFY_ON_SUCCESS=true
+NOTIFY_ON_ERROR=true
+ADMIN_CHAT_ID=your_admin_chat_id
